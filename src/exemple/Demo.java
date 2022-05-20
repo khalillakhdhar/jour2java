@@ -20,6 +20,7 @@ public class Demo {
 		while(y<=0)
 		{
 			y++;
+			
 			System.out.println("y= "+y);
 		}
 
