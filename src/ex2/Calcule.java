@@ -13,5 +13,28 @@ public class Calcule {
 			return "non divisible";
 		
 	}
+	public void affichepaire(int debut,int fin)
+	{
+		
+		for(int i=debut; i<=fin;i++)
+		{
+			if(i%2==0)
+				System.out.println(i);
+		}
+		
+	}
+	public int pcgd(int a,int b)
+	{
+		while(a!=b)
+		{
+			if(a>b)
+				a=a-b;
+			else 
+				b=b-a;
+			
+		}
+		
+		return a;
+	}
 
 }
